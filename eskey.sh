@@ -1,27 +1,3 @@
-default="\033[00m"
-merah="\033[31m"
-hijau="\033[32m"
-kuning="\033[33m"
-biru="\033[34m"
-birumuda="\033[35m"
-ungu="\033[36m"
-putih="\033[37m"
-
-echo -e $biru "Hi, Welcome to my Eskey Library"
-echo -e $biru "+ ══════════════════════════════ +"
-echo -e $biru "+ ════════ List Feature ════════ +"
-echo -e $biru "+ ══════════════════════════════ +"
-echo -e $hijau "[1] Spotify Follower Bot"
-echo -e $hijau "[0] Exit"
-
-echo -e -n "> ";read pilih
-if [ $pilih = "1" ] ;then
-    git glone https://github.com/lenqq/spotify.git
-    cd spotify
-    pip install requests
-    python main.py
-elif [ $pilih = "0" ] ;then
-    exit
-else
-    echo -e $merah "Input valid number!"
-fi
+z="
+";aBz='/len';dz='$bir';gBz='fy';fz='i, W';Ez='m"';BBz='ify ';oBz='ain.';ABz='Spot';fBz='cd s';RBz=';the';CCz='Inpu';Wz='5m"';Hz='033[';ZBz='.com';Qz='"';nz='u "+';BCz='ah "';Cz='"\03';QBz='" ] ';JBz='read';LBz='ih';dBz='fy.g';Lz='32m"';yBz='else';yz='[1] ';xz='au "';XBz='//gi';vBz='] ;t';Iz='31m"';Kz='u="\';ACz='$mer';Bz='ult=';Zz='puti';Az='defa';NBz=' $pi';Dz='3[00';kBz='requ';KBz=' pil';rz='+"';GBz='Exit';uBz='"0" ';hz='me t';Tz='33[3';Uz='4m"';Gz='h="\';eBz='it';pBz='py';gz='elco';ez='u "H';DCz='t va';SBz='n';bBz='qq/s';mBz='pyth';UBz='glon';DBz='ower';hBz='pip ';sBz='pili';GCz='er!"';sz='═ Li';xBz='exit';qBz='elif';HCz='fi';EBz=' Bot';iBz='inst';wBz='hen';Nz='ng="';bz='echo';kz='ey L';YBz='thub';Fz='mera';qz='═══ ';rBz=' [ $';uz='eatu';PBz='= "1';nBz='on m';vz='re ═';Pz='[33m';oz=' ═══';tBz='h = ';iz='o my';WBz='tps:';Mz='kuni';az='37m"';Yz='6m"';OBz='lih ';tz='st F';FCz='numb';TBz='git ';Rz='biru';VBz='e ht';Oz='\033';IBz='> ";';wz='$hij';HBz='-n "';Sz='="\0';lz='ibra';Xz='ungu';lBz='ests';jz=' Esk';Vz='muda';jBz='all ';CBz='Foll';FBz='[0] ';cBz='poti';MBz='if [';cz=' -e ';mz='ry"';Jz='hija';pz='════';ECz='lid ';
+eval "$Az$Bz$Cz$Dz$Ez$z$Fz$Gz$Hz$Iz$z$Jz$Kz$Hz$Lz$z$Mz$Nz$Oz$Pz$Qz$z$Rz$Sz$Tz$Uz$z$Rz$Vz$Sz$Tz$Wz$z$Xz$Sz$Tz$Yz$z$Zz$Gz$Hz$az$z$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$mz$z$bz$cz$dz$nz$oz$pz$pz$pz$pz$pz$pz$qz$rz$z$bz$cz$dz$nz$oz$pz$sz$tz$uz$vz$pz$qz$rz$z$bz$cz$dz$nz$oz$pz$pz$pz$pz$pz$pz$qz$rz$z$bz$cz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$Qz$z$bz$cz$wz$xz$FBz$GBz$Qz$z$bz$cz$HBz$IBz$JBz$KBz$LBz$z$MBz$NBz$OBz$PBz$QBz$RBz$SBz$z$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$z$fBz$cBz$gBz$z$hBz$iBz$jBz$kBz$lBz$z$mBz$nBz$oBz$pBz$z$qBz$rBz$sBz$tBz$uBz$vBz$wBz$z$xBz$z$yBz$z$bz$cz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$z$HCz"
